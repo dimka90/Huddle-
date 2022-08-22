@@ -1,0 +1,292 @@
+*{
+padding:0px;
+margin:0px;
+font-size: 20px;
+
+}
+.section2{
+    
+
+}
+h1{
+    font-weight: 600;
+}
+.mg-top__5px{
+    margin-top: 3rem;
+}
+.mg-top__2rem{
+    margin-top: 2rem;
+}
+.mg-top__10rem{
+    margin-top: 15rem;
+}
+.mg-top__3{
+   
+    margin-top:100px;
+}
+.mg-top__5{
+   
+    margin-top:20px;
+}
+.mgN_top{
+    margin-top:;
+}
+.mg-bottom{
+    margin-bottom:15px;
+}
+.padding-left{
+    padding-left:100px;
+}
+.paddingIMG{
+    padding-left:25px;
+    padding-top:25px;
+}
+img{
+    width:100%;
+}
+
+.inner-container{
+width:75%;
+
+margin:0px auto;
+}
+.logo-img{
+ 
+}
+header{
+    background-image: url("../img/huddle/bg-hero-desktop.svg");
+
+    height:85vh;
+    width:100%;
+
+}
+.btn-primary{
+
+    height: 50px;
+    
+    border:none;
+    border-radius:50px;
+    background-color:white;
+    padding:5px 3em;
+    box-shadow: 0px 2px 4px gray;
+    font-size:1.2em;
+}
+nav{
+    
+    height: 100px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.d-flex_jcenter{
+    display: flex;
+    justify-content:center;
+
+}
+.d-flex__jspace__acenter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.d-flex__jcenter__acenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* hero styling */
+.hero{
+   
+}
+.hero1{
+    margin-top:-100px;
+    width:45%;
+}
+.hero2-img__container{
+width:30rem;
+}
+.hero2 img{
+    width:100%;
+}
+.btn-container{
+} 
+.bg-secondary{
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+    font-size:1em;
+    border:none;
+    border-radius:50px;
+    padding:1em 4em;
+}
+.btn-secondary__container{
+ 
+}
+/* styling section3 illustration-img__container{} */
+.illustration-img__container{
+    
+}
+.illustration-img3__container{
+    }
+.card{
+    box-shadow: 0px 2px 4px gray;
+    
+}
+.section3 img{
+
+}
+.col-1{
+   width:45%; 
+}
+.col-2{
+  width:45%; 
+
+}
+.col h1{
+    
+}
+header{
+    
+    height: 50vh;
+}
+/* styling mini-card */
+
+.mini-card{
+    margin-top: 78px;
+   width:50%;
+   height: 30vh;
+    box-shadow: 0px 2px 4px gray;
+    margin-bottom: -88px;
+    z-index:22;
+    background-color: white;
+    border-radius:10px;
+    flex-direction: column;
+}
+.mini-card button{
+    border:none;
+    outline:none;
+    background-color:  hsl(322, 100%, 66%);
+    color:white;
+    padding:1rem 5rem;
+    border-radius:30px;
+    font-size:15px;
+}
+
+@media (max-width:850px) {
+    .inner-container{
+        width:80%;
+        margin: 0px auto;
+     
+    }
+    
+    .logo-img{
+ width: 10em;
+    }
+    .hero1{
+        width:100%;
+        margin-top:2rem;
+        
+    }
+.hero2{
+    width:100%;  
+}
+.hero1 h1{
+    font-size:2em;
+    text-align: center;
+}
+.hero1 p{
+    text-align: center;
+}
+    .btn-primary{
+        padding:3px 1em;
+       
+        height: 40px;
+       
+    }
+    .btn-secondary__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .d-flex__jspace__acenter{
+        flex-direction: column;
+
+      
+    }
+
+
+    .navigation{
+        flex-direction: row;
+      
+    }
+    
+    .hero1 h1{
+       margin: 1em 0px;
+    }
+    .hero2-img__container{
+        margin-top:2em;
+        width:25rem;
+        }
+    /* .section3  styling*/
+    .section3{
+     
+        margin-top:18em;
+    }
+    .col-1,
+    .col-2{
+        width:100%;
+    
+    }
+    .col-2{
+        margin-top: 4em;
+    }
+    .mgTop-N{
+        margin-top:4em;
+      
+    }
+    .padding-bottom{
+        padding-bottom: 12px;
+    }
+    .card{
+        
+   
+  
+    }
+    .card h1
+{ 
+   
+    margin: 1em;
+        padding-left: 0px;
+        text-align: center;
+
+    }
+    .card p
+    {  
+        display: flex;
+       text-align: center;
+       line-height: 1em;
+        padding-left: 0px;
+    }
+    .mini-card{
+        margin-top: 95px;
+       width:80%;
+       height: 20vh;
+      
+       
+    }
+    .mini-card button{
+        margin-top:10px;
+        color:white;
+        padding:0.5rem 2rem;
+        border-radius:30px;
+        font-size:15px;
+    }
+    .mg-top__5{
+    margin-top: 4em;
+    }
+
+    
+}
